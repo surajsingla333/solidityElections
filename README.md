@@ -19,9 +19,12 @@ npm run dev
 In Live Testing: 
 1) Rinkeby TestNet
 
-    Election contract address :  0x4d45057c0C03fd1B9D17561A07863422a487577d
+    Election contract address :  0xb39439116bAD4351792E88a9fE44875E486F3722
 
     Owner : 0xd27189917dd3E4B0e9eB731eCEe358254520FA01
 
     IPFS link : 
-    http://gateway.ipfs.io/ipfs/QmXsN3xTbmyJ6an6vdrbXjAfh72qSUeJdEzPitdjQZJSQU
+    https://gateway.ipfs.io/ipfs/QmbQN2zs8CK2S6noLB1mKcV2tu1JdJUNu7zCx3d6TJqbPt
+
+    IPNS link :
+    http://gateway.ipfs.io/ipns/QmNRazHcw31M4A4tz99M7rEUJLMqpMXCrUEs1JqMATrKGV

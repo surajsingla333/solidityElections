@@ -2617,33 +2617,12 @@
         }
       },
       "links": {},
-      "address": "0x4d45057c0C03fd1B9D17561A07863422a487577d",
-      "transactionHash": "0x39a89ae45d3ddef18ec51e378234f5a0b8f9d286182023615817e80c38a80055"
-    },
-    "5855": {
-      "events": {
-        "0xfff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b16": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "uint256",
-              "name": "_candidateId",
-              "type": "uint256"
-            }
-          ],
-          "name": "votedEvent",
-          "type": "event",
-          "signature": "0xfff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b16"
-        }
-      },
-      "links": {},
-      "address": "0xdb5BDcbA7f095d52De4A8fa60ed3946BDc3803Ce",
-      "transactionHash": "0xe8cc044e86cbf80a830e5c8ff15a1c87953a7259c0a3b41d34b4a13ea3e48952"
+      "address": "0xb39439116bAD4351792E88a9fE44875E486F3722",
+      "transactionHash": "0xf2fb9d8ab2c1871fb8a0dd209defc1cb5e643239b62f64027b9e5f751b54ff3a"
     }
   },
   "schemaVersion": "3.0.18",
-  "updatedAt": "2019-12-30T11:58:48.300Z",
+  "updatedAt": "2019-12-30T17:59:34.442Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

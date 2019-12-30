@@ -1,3 +1,5 @@
+//0x4d45057c0C03fd1B9D17561A07863422a487577d 
+
 App = {
   web3Provider: null,
   contracts: {},
@@ -14,18 +16,24 @@ App = {
       // If a web3 instance is already provided by Meta Mask.
       App.web3Provider = web3.currentProvider;
       web3 = new Web3(web3.currentProvider);
-      console.log(web3.eth.accounts);
+      console.log("WEB3 ACCOUNTS",web3.eth.accounts);
     } else {
       // Specify default instance if no web3 instance provided
       App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
       web3 = new Web3(App.web3Provider);
       console.log(web3);
     }
+
+    console.log("RETURNING")
+
     return App.initContract();
   },
 
   initContract: function() {
-    $.getJSON("Election.json", function(election) {
+    // $.getJSON(".")
+    $.getJSON("../Election.json", function(election) {
+
+      console.log("\nElection\n",election)
       // Instantiate a new truffle contract from the artifact
       App.contracts.Election = TruffleContract(election);
       // Connect provider to interact with contract
