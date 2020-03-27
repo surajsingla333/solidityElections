@@ -35,4 +35,4 @@ npm run dev
     
 > Network : https://testnetv3.matic.network (Matic testnet is used to make free of cost and fast transactions)
 
-> IPFS link : https://gateway.ipfs.io/ipfs/QmZJxKD4yz1JkePSfUcmXjeWfRPdtQse7FqZ7CWxbDRRyk/ (making it completely decentralized)
+> Live Demo : https://gateway.ipfs.io/ipfs/QmZJxKD4yz1JkePSfUcmXjeWfRPdtQse7FqZ7CWxbDRRyk/ (making it completely decentralized)
