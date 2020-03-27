@@ -23,7 +23,7 @@ npm run dev
 
 1) Matic TestNet
 
-> Goto IPFS link : https://gateway.ipfs.io/ipfs/QmZJxKD4yz1JkePSfUcmXjeWfRPdtQse7FqZ7CWxbDRRyk/
+> Goto IPFS link : https://gateway.ipfs.io/ipfs/QmZJxKD4yz1JkePSfUcmXjeWfRPdtQse7FqZ7CWxbDRRyk/ (this may take a minute or 2 depending on the number of peers available to you and your connection speed.)
 
 > Connect metamask to matic testnet https://testnetv3.matic.network
 
