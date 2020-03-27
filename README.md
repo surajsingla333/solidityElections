@@ -3,7 +3,7 @@ A voting app made using blockchain with the framework name Truffle.
 This is a voting app made using solidity, language for ethereum blockchain.
 Truffle framework is used for building the app.
 
-The smart contract is deployed on Matic testnet to make transaction fast and free of cost. 
+The smart contract is deployed on Matic testnet to make transaction fast and free of cost. When using matic testnet, while making transaction (calling a function), `goto Advanced options` and change `Gas Price` to 0. This will make your transactions (function calling) gas free.
 
 The client side is deployed on IPFS making it fulle decetralized application.
 
