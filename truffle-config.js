@@ -19,5 +19,14 @@ module.exports = {
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     },
+
+    matic: {
+      provider: function() {
+        return new HDWalletProvider(process.env.MNEMONIC, 'https://testnetv3.matic.network', 0,1)
+      },
+      network_id: 15001,
+      gas: 8000000,
+      gasPrice: 0,
+    },
   }
 };
